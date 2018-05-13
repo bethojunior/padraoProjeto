@@ -12,3 +12,4 @@ RewriteRule ^$ /geocorr/index/default.php [R]
 
 #RewriteRule ^(.+)$ /taxiticketteste/index/default.php?url=$1 [QSA,L]
 #RewriteRule ^$ /taxiticketteste/index/default.php [R]
+
