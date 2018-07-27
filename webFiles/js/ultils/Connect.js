@@ -3,12 +3,12 @@ class Connect{
     static sendRequest(url , method , params , callback) {
 
         $.ajax({
-            url: LOCAL+url,
+            url: HOST+url,
             method: method,
-            data:{params},
+            data: params,
             success:function(result){
                 callback(JSON.parse(result));
-            },error:function(result){
+            },error:function(result){   
                 console.log(result);
             }
         });
@@ -18,7 +18,7 @@ class Connect{
     static sendRequestFile(url , method , params , callback){
 
         $.ajax({
-            url: LOCAL+url,
+            url: HOST+url,
             method: method,
             data: params,
             success: function(result){

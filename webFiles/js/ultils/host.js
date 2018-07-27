@@ -1,5 +1,5 @@
-const LOCAL = "http://localhost/geocor/mvc/";
+const LOCAL = "http://localhost/barkanas/";
 const PRODUCTIONS = "/";
 
-const PATH = "http://localhost/geocor/";
+const HOST = LOCAL;
 

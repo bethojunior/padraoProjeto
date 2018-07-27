@@ -11,7 +11,7 @@
     startIncludes('../mvc/controller');
     require_once('../mvc/lib/WideImage.php');
     startIncludes('../mvc/dao');
-    startIncludes('../mvc/model');
+    
 
 
     if (!isset($_GET['url'])) {

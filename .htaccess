@@ -7,8 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteRule ^(.+)$ /geocorr/index/default.php?url=$1 [QSA,L]
-RewriteRule ^$ /geocorr/index/default.php [R]
+RewriteRule ^(.+)$ /nomeDoProjeto/index/default.php?url=$1 [QSA,L]
+RewriteRule ^$ /nomeDoProjeto/index/default.php [R]
 
-#RewriteRule ^(.+)$ /taxiticketteste/index/default.php?url=$1 [QSA,L]
-#RewriteRule ^$ /taxiticketteste/index/default.php [R]
